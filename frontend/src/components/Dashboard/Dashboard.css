@@ -1,0 +1,55 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .user-info-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .user-info-card h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333333;
+  }
+  
+  .user-info-card p {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
